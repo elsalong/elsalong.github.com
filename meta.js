@@ -7,6 +7,6 @@
         {"name": "other", "text":"其它"}
     ],
     "articles":[
-        {"title": "My first blog", "file": "2013-04-10", "cate":"other"}
+        {"title": "My first blog", "file": "2013-04-10", "cate":"tech"}
     ]
 }
