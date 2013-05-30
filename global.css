@@ -1,25 +1,32 @@
-/*
-Errno::ENOENT: No such file or directory - button_styles/global.scss
+@charset "UTF-8";
+#mybutton {
+  color: white;
+  font-size: 22px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#777777));
+  padding: 7px 22px;
+  border-radius: 10px;
+  border: 1px solid #aaaaaa;
+  text-shadow: 0px -1px 0px black;
+  font-family: "微软雅黑";
+  color: white;
+  text-shadow: 0 -1px 0 black; }
+  #mybutton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#8b8b8b)); }
+  #mybutton:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#777777), to(#dddddd)); }
 
-Backtrace:
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/plugin/compiler.rb:339:in `read'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/plugin/compiler.rb:201:in `each'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/plugin/compiler.rb:235:in `watch'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/plugin.rb:107:in `method_missing'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/exec.rb:444:in `watch_or_update'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/exec.rb:307:in `process_result'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/exec.rb:41:in `parse'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/lib/sass/exec.rb:21:in `parse!'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.6/bin/sass:9:in `<top (required)>'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/bin/sass:19:in `load'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/bin/sass:19:in `<main>'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `eval'
-/home/elsa/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - button_styles/global.scss"; }
+#mybutton2 {
+  color: white;
+  font-size: 22px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbffaa), to(#55cc33));
+  padding: 7px 22px;
+  border-radius: 20px;
+  border: 1px solid #cccccc;
+  text-shadow: 0px -1px 0px black;
+  font-family: "Arial";
+  color: black;
+  text-shadow: 0 1px 0 white; }
+  #mybutton2:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#dcffd3), to(#70d454)); }
+  #mybutton2:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#55cc33), to(#bbffaa)); }
