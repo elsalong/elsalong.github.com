@@ -6,9 +6,9 @@
 //b_inset用来控制文字阴影，参数为（文字颜色，阴影位置，阴影颜色）
 //阴影位置推荐：白字黑底为-1,黑字白底为+1,这样做出来的文字是下陷效果。
 
-@import "mixins";
+@import "ebutton/mixins";
 
-#mybutton{
+#mybutton1{
 @include e_button(22px, "微软雅黑",10px, #ddd, #777, #aaa);
 @include b_inset(white, -1px, black);
 }
@@ -16,4 +16,19 @@
 #mybutton2{
 @include e_button(22px, "Arial",20px, #bfa, #5c3);
 @include b_inset(black, 1px, white);
+}
+
+#mybutton3{
+  @include e_button(22px, "楷体", 5px, #8ff, #399);
+  @include b_inset(white, -1px, black);
+}
+
+#mybutton4{
+  @include e_button(22px, "楷体", 15px, #ffdba5, #ff5606);
+  @include b_inset(black, 1px, white);
+}
+
+#mybutton5{
+  @include e_button(22px, "楷体", 15px, #852, #a74);
+  @include b_inset(white, -1px, black);
 }
